@@ -1,0 +1,10 @@
+-fixed waitpid
+-passes forkbomb!
+--This line, and those below, will be ignored--
+
+M    kern/arch/mips/mips/syscall.c
+M    kern/main/menu.c
+D    kern/syscall/sys_execv.c
+M    kern/syscall/sys_fork.c
+M    kern/syscall/sys_waitexit.c
+M    kern/thread/thread.c
